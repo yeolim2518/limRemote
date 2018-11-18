@@ -73,9 +73,9 @@ public class SelectBoxController {
 		
 		System.out.println("resultMap : " + resultMap);
 		/*resultMap : {result=SUCCESS, 
-					childList=[{prdCd=P00002, prdNm=별점퍼}, 
-					           {prdCd=P00003, prdNm=별점퍼2}, 
-					           {prdCd=P00004, prdNm=자전거티}]}*/
+				childList=[{prdCd=P00002, prdNm=별점퍼}, 
+					   {prdCd=P00003, prdNm=별점퍼2}, 
+					   {prdCd=P00004, prdNm=자전거티}]}*/
 		
 	}
 }
