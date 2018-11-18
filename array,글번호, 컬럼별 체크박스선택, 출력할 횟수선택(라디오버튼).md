@@ -27,6 +27,14 @@
 		
 		return "array_8week/array_homeWork.tiles";
 	}
+
+<!--  ::::: array.xml ::::: -->			
+<mapper namespace="egovframework.example.array.service.impl.ArrayMapper">
+	<select id="selectSeqNoList" resultType="egovMap">
+		SELECT SEQ_NO
+  		  FROM WELCOME_WEB
+	</select>
+</mapper>			
   
  <!--  ::::: array_homeWork.jsp ::::: -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
