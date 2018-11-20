@@ -109,9 +109,9 @@
 				$.ajax({
 					url 		: "excelDownloadAjax.do",
 					type 		: "post",
-					data 		: JSON.stringify(map),
+					data 		: JSON.stringify(map),	// map을 제이슨형태의 문자열로 보냄(오브젝트가 아니라..문자열로 보내짐..아래 컨텐트타입과 같이써야 함)
 					dataType 	: "json",
-					contentType : "application/json",
+					contentType : "application/json",	// data짝꿍: 제이슨형태의 문자열을 보냇지만 서버엔 오브젝트로 넘어감.
 					success 	: function(data) {
 						
 						if (data.result === "SUCCESS") {
