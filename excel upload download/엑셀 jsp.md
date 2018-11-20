@@ -38,9 +38,8 @@
 					dataType 	: "json",
 					success		: function(data) {    // data = 컨트롤러에서 excelList가 넘어옴
 						var table 	  = "",
-								var table 	  = "",
-							theadData = data.shift(),	// shift(): 배열중 제일 앞에있는 걸 가져옴(excelList에서 컬럼명에 해당하는걸 가져옴)
-							tbodyData = data;			// shift()사용하면 배열의 0번째 인덱스를 반환하면서 배열에서 제거됨. 그래서 th제외한 나머지 부분만
+						    theadData = data.shift(),	// shift(): 배열중 제일 앞에있는 걸 가져옴(excelList에서 컬럼명에 해당하는걸 가져옴)
+					            tbodyData = data;		// shift()사용하면 배열의 0번째 인덱스를 반환하면서 배열에서 제거됨. 그래서 th제외한 나머지 부분만
 														// tbodyData에 들어가게됨.
 						
 						table += "<table id='table'><thead><tr>";
