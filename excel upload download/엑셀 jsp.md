@@ -107,7 +107,7 @@
 				});
 				
 				map.titles   = titles;		// map에 th 한줄 넣음.
-				map.contents = contents;	// map에 td 한줄 넣음.(row)
+				map.contents = contents;	// map에 td 여러줄 넣음.(row들)
 				
 				$.ajax({
 					url 		: "excelDownloadAjax.do",
