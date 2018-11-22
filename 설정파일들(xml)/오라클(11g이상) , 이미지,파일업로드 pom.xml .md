@@ -260,7 +260,7 @@
 			<scope>compile</scope>
 		</dependency>
 		
-		<!-- 스프링 파일 업로드 -->		
+		<!-- 스프링 파일 업로드(이미지,엑셀파일등.. -->		
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
