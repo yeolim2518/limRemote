@@ -23,3 +23,7 @@
     <beans:property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
 </beans:bean>
 ```
+```
+타일즈 폴더째 복붙하기(그래야 오류안남)
+WEB-INF우클릭후 붙여넣기~
+```
