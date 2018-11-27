@@ -1,8 +1,10 @@
 ```
-<repository>
-    <id>codelds</id>
-    <url>https://code.lds.org/nexus/content/groups/main-repo</url>
-</repository>
+<repositories>
+	<repository>
+	    <id>codelds</id>
+	    <url>https://code.lds.org/nexus/content/groups/main-repo</url>
+	</repository>
+</repositories>	
 ```
 
 ```
