@@ -1,16 +1,17 @@
 ```
-<beans:bean id="tilesViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-    <beans:property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView" />
-    <beans:property name="order" value="1" />
-    <!-- 아래 value값에 있는 설정을 1순위로 하겠다 -->
-</beans:bean>
-<!-- Tiles 2 Configurer -->
-<beans:bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
-        <beans:property name="definitions">
+<!-- 타일즈 뷰 설정 -->    
+<beans:bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">  		
+    <beans:property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView" />  		
+    <beans:property name="order" value="1" /> 	
+</beans:bean> 	
+	
+<!-- 타일즈 레이아웃 설정  --> 	
+<beans:bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+    <beans:property name="definitions">
         <beans:list>
             <beans:value>/WEB-INF/tiles/default-layout.xml</beans:value>
         </beans:list>
-        </beans:property>
+    </beans:property>
 </beans:bean>
 ```
 
