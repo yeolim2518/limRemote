@@ -15,7 +15,7 @@ spring > context >
 ```
 2. context-datasource.xml
 ```
-![image](https://user-images.githubusercontent.com/42727909/49078333-19104600-f281-11e8-82b4-38b9356635cb.png)
+![image](https://user-images.githubusercontent.com/42727909/49079150-3ba35e80-f283-11e8-815c-26320aea2a4d.png)
 
 ```
 3. context-mapper.xml
