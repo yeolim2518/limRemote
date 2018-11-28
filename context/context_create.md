@@ -26,5 +26,5 @@
 
 
 # 기본 소스 파일 다운 받으러 가기
-[소스파일](https://google.com)
-<https://google.com>
+[소스파일](resources)
+
