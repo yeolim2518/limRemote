@@ -1,4 +1,5 @@
-1. 아래의 코드를 삽입
+# context-mapper.xml 작성하기
+### 1. 아래의 코드를 삽입
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -24,6 +25,7 @@
 </beans>
 ```
 
-2. 아래 부분은 Mapper.class가 위치한 패키지를 설정하는 소스코드로 본인의 패키지로 변경
+### 2. 아래 부분은 Mapper.class가 위치한 패키지를 설정하는 소스코드로 본인의 패키지로 변경
 ![image](https://user-images.githubusercontent.com/42727909/49121424-b6a45d80-f2f3-11e8-8684-e208302d2527.png)
 
+#### [context_create로 돌아가기](context_create.md)
