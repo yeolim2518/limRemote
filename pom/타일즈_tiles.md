@@ -1,7 +1,9 @@
+# pom.xml에 타일즈 관련 내용 추가하기
+### properties 하위에 
 ```
 <org.apache.tiles-version>3.0.8</org.apache.tiles-version>
 ```
-
+### dependencies 하위에 붙여넣기
 ```
 <dependency>
     <groupId>org.apache.tiles</groupId>
@@ -14,3 +16,4 @@
     <version>${org.apache.tiles-version}</version>
 </dependency>
 ```
+#### [pom.xml로 돌아가기](../pom.xml.md)
