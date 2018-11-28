@@ -22,4 +22,7 @@
         <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc-11.2.0.3.jar</systemPath> -->
 </dependency>
 ```
+### 위의 코드가 먹히지 않고 오류가 발생한다면 아래 ojdbc6를 다운받자
+[ojdbc6.zip](https://github.com/yeolim2518/limRemote/files/2623006/ojdbc6.zip)
+
 #### [pom.xml로 돌아가기](../pom.xml.md)
