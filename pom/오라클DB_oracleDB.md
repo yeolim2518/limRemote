@@ -1,8 +1,8 @@
 # pom.xml에 오라클 추가하기
 ### 아래 코드 추가하기
 
-	- repositories가 **없으면** 아래 코드 전체를 복사해서 붙여넣기
-	- repositories가 **존재하면** <repository> 태그만 복사해서 붙여넣기
+- repositories가 **없으면** 아래 코드 전체를 복사해서 붙여넣기
+- repositories가 **존재하면** <repository> 태그만 복사해서 붙여넣기
 	
 ```
 <repositories>
