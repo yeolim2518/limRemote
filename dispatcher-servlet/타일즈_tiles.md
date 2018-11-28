@@ -22,5 +22,5 @@
 
 ### 아래의 네모 부분의 위치에 해당 파일 작성하기(만들지 않으면 에러 발생)
 ![image](https://user-images.githubusercontent.com/42727909/49123075-988e2b80-f2fa-11e8-9e32-92b1e24b9336.png)
-- [소스코드 지러가기](default-layout.xml.md)
+- [소스코드 가지러가기](default-layout.xml.md)
 #### [dispatcher-servlet.xml로 돌아가기](../servlet-context.xml(=dispatcher-servlet.xml).md)
