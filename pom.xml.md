@@ -1,3 +1,5 @@
+# pom.xml 작성하기
+
 ```
 00. new 프로젝트 생성- Spring Legacy Project - Project name 써주고 아래 창에서 Spring MVC Project 선택후 넥스트								
   -> 경로쓰는 칸에 꼭 3개는 써야함 : com.test.spring -끝								
@@ -11,3 +13,7 @@
 6. [마이바티스](pom/마이바티스_mybatis.md)
 7. [JSTL](pom/jstl.md)
 8. [오라클 DB](pom/오라클DB_oracleDB.md)
+
+#### [README로 돌아가기](README.md)
+#### [다음 챕터(web.xml)](web.xml.md)
+
