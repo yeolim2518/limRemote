@@ -26,4 +26,4 @@
 
 
 # 기본 소스 파일 다운 받으러 가기
-[소스파일](resources)
+[소스파일](https://github.com/yeolim2518/limRemote/tree/spring/context/resources)
