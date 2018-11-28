@@ -1,3 +1,6 @@
+# message-common_ko.properties 
+### 아래의 코드를 복사 후 붙여넣기
+```
 #UI resource#
 list.sample=List Sample
 button.search=검색
@@ -66,4 +69,5 @@ AssertTrue.member.checkId = 중복된 이메일입니다.
 AssertTrue.member.pwConfirm = 비밀번호가 서로 다릅니다.
 NotBlank.member.mbType = 회원유형을 선택 해 주세요.
 Length.roomBoardVO.content = 내용을 입력 해주세요.
-
+```
+#### [context_create로 돌아가기](context_create.md)
