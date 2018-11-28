@@ -6,7 +6,7 @@
 ```
 ### 0. [기본파일](pom/기본파일.md)
 ### 1. [타일즈](pom/타일즈_tiles.md)
-### ### 2. [마리아 DB](pom/마리아DB_mariaDB.md)
+### 2. [마리아 DB](pom/마리아DB_mariaDB.md)
 ### 3. [스프링 파일업로드](pom/스프링파일업로드_springfileupload.md)
 ### 4. [GSON](pom/gson_json.md)
 ### 5. [엑셀](pom/excel_엑셀.md)
