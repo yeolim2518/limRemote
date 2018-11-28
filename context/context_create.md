@@ -26,5 +26,5 @@
 
 
 # 기본 소스 파일 다운 받으러 가기
-[소스파일](resources)
+[](https://github.com/yeolim2518/limRemote/files/2622552/spring.zip)
 
