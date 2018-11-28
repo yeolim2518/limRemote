@@ -1,4 +1,4 @@
-# pom.xml에 타일즈 관련 내용 추가하기
+# pom.xml에 타일즈 추가하기
 ### properties 하위에 붙여넣기
 ```
 <org.apache.tiles-version>3.0.8</org.apache.tiles-version>
