@@ -1,3 +1,5 @@
+# pom.xml에 마이바티스 
+### denpendencies 하위에 추가하기
 ```
 <dependency>
     <groupId>org.mybatis</groupId>
@@ -23,3 +25,4 @@
     <version>1.4</version>
 </dependency>
 ```
+#### [pom.xml로 돌아가기](../pom.xml.md)
