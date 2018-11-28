@@ -1,3 +1,5 @@
+# pom.xml에 마리아DB dependency 추가하기
+### dependencies 하위에 붙여넣기
 ```
 <dependency>
     <groupId>org.mariadb.jdbc</groupId>
@@ -23,3 +25,4 @@
     </exclusions>
 </dependency>
 ```
+#### [pom.xml로 돌아가기](../pom.xml.md)
