@@ -1,3 +1,6 @@
+# message-common.properties 작성하기
+### 아래의 코드를 복사 
+```
 #UI resource#
 list.sample=List Sample
 button.search=검색
@@ -43,3 +46,5 @@ errors.creditcard={0} 은 유효하지 않은 신용카드 번호입니다.
 errors.email={0} 은 유효하지 않은 이메일 주소입니다.
 errors.ihidnum=유효하지 않은 주민등록번호입니다.
 errors.korean={0}은 한글을 입력하셔야 합니다.
+```
+#### [context_create로 돌아가기](context_create.md)
