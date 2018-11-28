@@ -10,3 +10,5 @@
 [dispatcher-servlet.xml](servlet-context.xml(=dispatcher-servlet.xml))
 ### context-*.xml파일들을 만듭니다.
 [context-*.xml](context/context_create.md)
+### 설정이 모두 완료 된 후에 작업
+[설정완료후 작업](설정끝나고%20각%20폴더%20복붙.md)
