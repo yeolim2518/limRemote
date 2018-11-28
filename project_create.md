@@ -8,5 +8,5 @@
 ### 4. 초기 패키지 입력 후 Next 클릭 (**주의 : 3계층으로 작성 => com.test.spring**)
 ![image](https://user-images.githubusercontent.com/42727909/49120649-e30aaa80-f2f0-11e8-9d8b-e6c889ea987a.png)
 
-#### [이전으로 가기](README.md)
-#### [pom.xml](pom.xml.md)
+#### [README로 돌아가기](README.md)
+#### [다음 챕터(pom.xml)](pom.xml.md)
