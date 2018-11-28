@@ -29,4 +29,4 @@
 [소스파일](https://github.com/yeolim2518/limRemote/files/2622552/spring.zip)
 
 #### [README로 돌아가기](../README.md)
-#### [설정완료후작업](설정끝나고%20각%20폴더%20복붙.md)
+#### [설정완료후작업](../설정끝나고%20각%20폴더%20복붙.md)
