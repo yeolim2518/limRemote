@@ -1,4 +1,5 @@
-1. 아래의 코드를 삽입
+# context-common.xml 작성하기
+### 1. 아래의 코드를 삽입
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -24,5 +25,5 @@
 </beans>
 ```
 
-2. 아래의 그림을 참조하여 본인의 패키지로 변경
+### 2. 아래의 그림을 참조하여 본인의 패키지로 변경
 ![image](https://user-images.githubusercontent.com/42727909/49121055-71336080-f2f2-11e8-8d6b-ad8c60d0a324.png)
