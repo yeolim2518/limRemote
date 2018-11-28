@@ -6,4 +6,6 @@
 ### 3. Project name에 입력 후 **Spring MVC Project** 클릭 후에 Next 클릭
 ![image](https://user-images.githubusercontent.com/42727909/49120588-9f17a580-f2f0-11e8-836a-174e7f556cd8.png)
 ### 4. 초기 패키지 입력 후 Next 클릭 (**주의 : 3계층으로 작성 => com.test.spring**)
-![image](https://user-images.githubusercontent.com/42727909/49120649-e30aaa80-f2f0-11e8-9d8b-e6c889ea987a.png)
+![image](https://user-images.githubusercontent.com/42727909/49120649-e30aaa80-f2f0-11e8-9d8b-e6c889ea987a.png)ㅇ
+[이전으로 가기](README.md)
+[pom.xml](pom.xml.md)
