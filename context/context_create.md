@@ -28,4 +28,4 @@
 # 기본 소스 파일 다운 받으러 가기
 [소스파일](https://github.com/yeolim2518/limRemote/files/2622552/spring.zip)
 
-#### [README로 돌아가기](README.md)
+#### [README로 돌아가기](../README.md)
