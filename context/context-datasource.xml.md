@@ -31,4 +31,29 @@
 ### 3. **<마리아DB>** 아래의 네모 부분을 본인의 정보에 맞추어 수정
 ![image](https://user-images.githubusercontent.com/42727909/49121313-5dd4c500-f2f3-11e8-99a2-c1e22812723e.png)
 
+## 주의 : 로그를 추가하려면 아래 코드로 수정
+```
+<bean id="dataSourceSpied" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+    <property name="url" value="jdbc:oracle:thin:@52.79.235.41:1521:xe" />
+    <property name="validationQuery" value="SELECT 1 FROM dual"/>
+    <property name="username" value="ource"/>
+    <property name="password" value="ourvoice"/>
+</bean>
+
+<!-- 아래가 로그를 삽입하는 코드 -->
+<bean id="dataSource" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
+    <constructor-arg ref="dataSourceSpied" />
+    <property name="logFormatter">
+        <bean class="net.sf.log4jdbc.tools.Log4JdbcCustomFormatter">
+            <property name="loggingType" value="MULTI_LINE" />
+            <property name="sqlPrefix" value="SQL         :  "/>
+        </bean>
+    </property>
+</bean>
+```
+그리고 src > main > resources > log4j.xml 수정하기
+[log4j.xml](log4j.xml.md)
+
+
 #### [context_create로 돌아가기](context_create.md)

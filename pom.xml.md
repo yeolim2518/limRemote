@@ -13,6 +13,7 @@
 ### 6. [마이바티스](pom/마이바티스_mybatis.md)
 ### 7. [JSTL](pom/jstl.md)
 ### 8. [오라클 DB](pom/오라클DB_oracleDB.md)
+### 9. [jdbc 로그](pom/jdbc_log.md)
 
 #### [README로 돌아가기](README.md)
 #### [다음 챕터(web.xml)](web.xml.md)
