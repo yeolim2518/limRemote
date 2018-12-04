@@ -7,7 +7,7 @@
 ### web.xml을 붙여 넣습니다.
 [web.xml](web.xml.md)
 ### dispatcher-servlet.xml(=servlet-context.xml)을 붙여 넣습니다.
-[dispatcher-servlet.xml](servlet-context.xml(=dispatcher-servlet.xml))
+[dispatcher-servlet.xml](servlet-context.xml(=dispatcher-servlet.xml).md)
 ### context-*.xml파일들을 만듭니다.
 [context-*.xml](context/context_create.md)
 ### 설정이 모두 완료 된 후에 작업
