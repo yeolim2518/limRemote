@@ -8,3 +8,7 @@
 [tiles.xml](환경설정/tiles.xml.md)
 ### default-layouts.jsp(template) 작성하기
 [default-layouts.jsp](환경설정/default-layouts.jsp.md)
+
+# 타일즈 알아보기
+### tiles.xml 태그 알아보기
+[tiles.xml](확장/tiles.xml.md)
