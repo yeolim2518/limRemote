@@ -1,2 +1,2 @@
 # SQL 관련 에러
-### [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Error instantiating class com.spring.sns.myInfo.service.UserVO with invalid types () or values (). Cause: java.lang.NoSuchMethodException: com.spring.sns.myInfo.service.UserVO.<init>()]()
+### [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Error instantiating class com.spring.sns.myInfo.service.UserVO with invalid types () or values (). Cause: java.lang.NoSuchMethodException: com.spring.sns.myInfo.service.UserVO.<init>()](sql1.md)
