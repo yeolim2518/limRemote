@@ -20,13 +20,13 @@
 </tiles-definitions>
 ```
 ### 태그 설명
-1.   tiles-definitions : 가장 바깥에 위치한 태그로 해당 태그 안에 타일즈를 정의 합니다.
+1. tiles-definitions : 가장 바깥에 위치한 태그로 해당 태그 안에 타일즈를 정의 합니다.
 
-1.   definition : 사용자에게 제공되기 위하여 랜더링되는 Template과 Attribute들을 연결해주는 역할을 합니다.
+1. definition : 사용자에게 제공되기 위하여 랜더링되는 Template과 Attribute들을 연결해주는 역할을 합니다.
     - name : 뷰와 매핑할 때 참조할 값
     - template : 한 페이지의 레이아웃을 구성하기 위한 페이지로 definition의 하위태그로 작성하는 attribute태그들 레이아웃을 구성하게 됩니다.
     
-1.   put-attribute
+1. put-attribute
     - name : template에서 사용할 attribute의 name
     - value : 레이아웃을 구성할 실제 파일 경로
 
