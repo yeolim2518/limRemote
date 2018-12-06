@@ -2,7 +2,21 @@
 
 WriteOption은 데이터를 엑셀에 저장할 때 설정정보를 담고 있는 객체 입니다. 데이터를 저장할 때 WriteOption를 매개변수로 받기 때문에 필수적으로 생성해야하는 객체입니다.
 
-## 1-1. 인스턴스 변수
+## 필수 입력 사항
+
+1. **String filePath**
+
+    - 설명 : 엑셀파일이 저장 될 경로입니다(**파일 이름 제외**).
+    - setMethod : 
+        1. **setFilePath(String filePath)**
+1. **String fileName**
+    - 설명 : 엑셀파일이 저장 될 파일이름입니다.
+    - setMethod : 
+        1. **ssetFileName(String fileName)**
+        
+-----
+
+## 1-1. 인스턴스 변수 (참조사항)
 
 - **String filePath - 필수**
 
