@@ -1,6 +1,7 @@
 # tiles.xml파일 작성하기
 ### tiles.xml 파일 생성
 먼저 dispatcher-servlet.xml에서 설정했었던 경로를 참고하여 tiles.xml을 생성합니다.
+
 ![image](https://user-images.githubusercontent.com/42727909/49426230-545fc700-f7e3-11e8-92ac-186c4bd38d1d.png)
 ![image](https://user-images.githubusercontent.com/42727909/49426307-8b35dd00-f7e3-11e8-99c1-205fc38f4b82.png)
 
