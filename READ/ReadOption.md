@@ -2,7 +2,29 @@
 
 ReadOption은 엑셀에서 데이터를 가져올 때 설정정보를 담고 있는 객체 입니다. 데이터를 가져올 때 ReadOption를 매개변수로 받기 때문에 필수적으로 생성해야하는 객체입니다.
 
-## 1-1. 인스턴스 변수
+## 필수 입력 사항
+
+1. **String filePath**
+
+    - 설명 : 엑셀파일이 저장된 위치를 저장하는 변수입니다(파일 업로드를 통해서 진행하더라도 파일을 저장한 후에 해당 경로를 변수에 저장해야 합니다).
+    - setMethod : 
+        1. **setFilePath(String filePath)**
+1. **File file**
+    - 설명 : 엑셀파일이 저장된 위치를 담고 있는 File 객체 입니다. 삭제시에 해당 객체를 사용합니다.
+    - setMethod : 
+        1. **setFilePath(MultipartHttpServletRequest mRequest, String path, String uploadName)**
+        
+            : path는 실제 저장경로, uploadName는 파일업로드한 input의 name값
+        1. **setFilePath(File file)**
+        
+            : 저장경로가 담긴 File로 받기
+        1. **setFile(File file)**
+        
+            : 사용불가(X)
+        
+-----
+
+## 1-1. 인스턴스 변수 (참조사항)
 
 - **String filePath - 필수**
 
