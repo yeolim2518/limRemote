@@ -1,8 +1,6 @@
 # pom.xml 작성하기
 
-```
-00. new 프로젝트 생성- Spring Legacy Project - Project name 써주고 아래 창에서 Spring MVC Project 선택후 넥스트								
-  -> 경로쓰는 칸에 꼭 3개는 써야함 : com.test.spring -끝								
+							
 ```
 ### 0. [기본파일](pom/기본파일.md)
 ### 1. [타일즈](pom/타일즈_tiles.md)
