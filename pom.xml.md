@@ -1,7 +1,5 @@
 # pom.xml 작성하기
 
-							
-```
 ### 0. [기본파일](pom/기본파일.md)
 ### 1. [타일즈](pom/타일즈_tiles.md)
 ### 2. [마리아 DB](pom/마리아DB_mariaDB.md)
@@ -15,5 +13,5 @@
 
 #### [README로 돌아가기](README.md)
 #### [다음 챕터(web.xml)](web.xml.md)
-```
+
 
