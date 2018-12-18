@@ -11,3 +11,8 @@
 ### [화면에서 할 작업](download/view.md)
 ### [컨트롤러에서 요청처리](download/controller.md)
 ### [서비스에서 파일 다운로드 처리](download/service.md)
+
+# 오라클 BLOB를 활용한 파일 업로드
+### [기본 셋팅](upload/setting.md)
+### [VO를 이용한 저장](blob/filestore.md)
+### [BLOB를 화면에 출력하기](blob/view.md)
